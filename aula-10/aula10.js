@@ -1,4 +1,4 @@
-let interruptor = "desligado";
+let interruptor = "igado";
 
 if (interruptor === "ligado") {
     console.log("A luz está acesa");

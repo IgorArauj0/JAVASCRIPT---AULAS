@@ -1,0 +1,14 @@
+
+#meuElemento{ /*Estilização da Div || Uso da # por conta que o "meuElmento é um ID*/
+    width: 200px; /*largura*/
+    height: 200px; /*height*/
+    background-color: chocolate;
+}
+
+.square {
+    border-radius: 0%; /*Será usado para tornar a caixa quadrada sem Border Radius*/
+}
+
+.circle {
+    border-radius: 100%; /*Essa estilização entrará em vigor quando tornaremos a caixa redonda */
+}
