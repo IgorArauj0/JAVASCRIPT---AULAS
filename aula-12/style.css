@@ -1,0 +1,54 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f2f2f2;
+    color: #222;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+section {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* Card interativo */
+.card {
+    width: 250px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #00000022;
+}
+
+/* Modo escuro */
+.dark {
+    background: #181818;
+    color: white;
+}
+
+.dark .card {
+    background: #333;
+    color: white;
+}
