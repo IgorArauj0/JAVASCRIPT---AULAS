@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MODO DARK E LIGHT</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/5729e0ff2e.js" crossorigin="anonymous"></script>
 </head>
 
@@ -13,22 +17,120 @@
 
     <!-- Cabeçalho -->
     <header>
-        <div>
-            <h1>Mini Site Interativo</h1>
+        <div class="logo">
+            <h1>Site Dom Bosco</h1>
         </div>
 
-        <div>
+        <div class="toggle-btn">
             <button id="btnTema"><i class="fa-solid fa-moon"></i></button>
         </div>
     </header>
 
-    <!-- Conteúdo Principal -->
-    <section>
-        <h2>Card Interativo</h2>
-        <div class="card" id="card">
-            <h3>TEXTO PADRÃO</h3>
+
+    <section class="section-00">
+        <button>SAIBA MAIS</button>
+    </section>
+
+    <!-- SESSÃO 1 – Card Interativo -->
+    <section class="sessao section-01">
+
+        <div class="card card-img">
+
+        </div>
+
+        <div class="card card-text" id="card">
+            <h2>Card Interativo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Ab asperiores illum eveniet, inventore in, et,
+                laudantium autem voluptates labore ducimus ipsum veritatis </p>
+        </div>
+
+    </section>
+
+
+    <!-- SESSÃO 2 – O que é JavaScript -->
+    <section class="sessao">
+
+        <div class="text-section-02">
+            <h2>O que é JavaScript?</h2>
+            <p>
+                JavaScript é a linguagem responsável por adicionar <strong>interatividade</strong> aos sites.
+                Com ele, você pode criar animações, menus, pop-ups, validações e muito mais.
+            </p>
+        </div>
+
+        <div class="info-box">
+            <h3>Por que aprender JavaScript?</h3>
+            <ul>
+                <li>Usado em praticamente todos os sites modernos.</li>
+                <li>Permite criar interfaces interativas.</li>
+                <li>É a linguagem principal do front-end.</li>
+                <li>Também pode ser usada no back-end (Node.js).</li>
+            </ul>
         </div>
     </section>
+
+
+    <!-- SESSÃO 3 – Exemplo simples de if/else -->
+    <section class="sessao">
+
+        <div>
+
+
+            <h2>Exemplo Básico: If e Else</h2>
+            <p>
+                O <strong>if/else</strong> é como uma pergunta:
+                “Se isso for verdade, execute tal ação. Caso contrário, execute outra.”
+            </p>
+
+        </div>
+
+        <div class="code-box">
+            <pre>
+let idade = 18;
+
+if (idade >= 18) {
+    console.log("Você é maior de idade");
+} else {
+    console.log("Você é menor de idade");
+}
+            </pre>
+        </div>
+    </section>
+
+
+    <!-- SESSÃO 5 – Conteúdo lado a lado -->
+    <section class="sessao flex-sessao">
+
+
+        <div class="flex-container">
+
+            <!-- Caixa 1 – Com imagem -->
+            <div class="flex-box">
+                <img src="https://picsum.photos/350/200" alt="Imagem exemplo">
+                <h3>Box com Imagem</h3>
+                <p>
+                    Esta caixa utiliza uma imagem na parte superior e um texto abaixo, criando um layout visualmente
+                    agradável.
+                </p>
+            </div>
+
+            <!-- Caixa 2 – Apenas texto -->
+            <div class="flex-box">
+                <h3>Box Apenas Texto</h3>
+                <p>
+                    Aqui temos uma caixa totalmente baseada em texto, ideal para explicações adicionais ou conteúdo mais
+                    longo.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Site criado como exemplo na instituição Dom Bosco Itaquera</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

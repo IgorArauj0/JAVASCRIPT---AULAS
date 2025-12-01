@@ -1,53 +1,255 @@
-/* Estilo base */
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background: #f2f2f2;
-    color: #222;
-    transition: 0.3s;
+/* ======== ESTILO GLOBAL ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s; /* Transições suaves */
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+/* ======== CABEÇALHO ======== */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 30px;
 }
 
-button {
-    padding: 10px;
+header h1 {
+    font-size: 26px;
+}
+
+header button {
+    padding: 10px 12px;
     border: none;
+    background: #ddd;
     cursor: pointer;
+    border-radius: 6px;
     font-size: 18px;
 }
 
-section {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+header button:hover {
+    background: #ccc;
 }
 
-/* Card interativo */
-.card {
-    width: 250px;
-    height: 150px;
+
+/* ======== SESSÕES ======== */
+.sessao {
+    margin-top: 40px;
+    padding: 1.1rem;
     background: white;
     border-radius: 10px;
+    box-shadow: 0 0 10px #00000015;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.sessao h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.sessao p {
+    margin-bottom: 15px;
+}
+
+
+/* ======== CARD INTERATIVO ======== */
+.card {
+    width: 280px;
+    height: 160px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #00000025;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    transition: 0.5s;
-    box-shadow: 0 0 10px #00000022;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.4s;
 }
 
-/* Modo escuro */
-.dark {
-    background: #181818;
+.card:hover {
+    transform: scale(1.07);
+    
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    
+    font-size: 0.8rem;
+}
+
+.text-section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+}
+
+.text-section-02 p {
+    margin: 3rem;
+}
+
+
+.section-00 {
+    background-image: url(rock-9756732_1280.jpg);
+    padding: 10rem;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-00 button {
+    border: none;
+    padding: 0.7rem;
+    min-width: 100px;
+    width: 10rem;
+    background-color: #555;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.section-00 button:hover{
+    background-color: #5555559e;
+}
+
+
+.section-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1.5rem;
+}
+
+/* ======== INFO-BOX (caixas de destaque) ======== */
+.info-box {
+    background: #e8e8e8;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+.info-box li {
+    margin-bottom: 8px;
+}
+
+
+/* ======== CODE-BOX (caixa de código) ======== */
+.code-box {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.code-box pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+
+/* ======== RODAPÉ ======== */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #555;
+}
+
+
+/* ==========================================================
+   ======================= MODO DARK =========================
+   ========================================================== */
+
+body.dark {
+    background-color: #181818;
+    color: #eaeaea;
+}
+
+/* Cabeçalho e botão no modo escuro */
+body.dark header {
+    border-bottom: 2px solid #444;
+}
+
+body.dark header button {
+    background-color: #333;
     color: white;
 }
 
-.dark .card {
-    background: #333;
-    color: white;
+body.dark header button:hover {
+    background-color: #444;
+}
+
+
+/* Sessões no modo escuro */
+body.dark .sessao {
+    background-color: #222;
+    box-shadow: 0 0 15px #00000055;
+}
+
+body.dark .info-box {
+    background-color: #333;
+}
+
+body.dark .code-box {
+    background-color: #000;
+}
+
+
+/* Card no modo escuro */
+body.dark .card {
+    background-color: #333;
+    box-shadow: 0 0 12px #00000080;
+}
+
+
+.card-img {
+    background-image: url(rock-9756732_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width: 500px)  {
+    .flex-container {
+        flex-direction: column;
+    }
 }
