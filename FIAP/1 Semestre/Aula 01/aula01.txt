@@ -1,0 +1,6 @@
+4. Exercício de fixação
+Peça aos alunos que:
+1. Modifiquem o texto do botão para "Iniciar".
+2. Alterem a mensagem para "Estou aprendendo JavaScript!".
+3. Criem um segundo botão que exiba o nome da escola.
+Resultado esperado: dois botões funcionando independentemente.

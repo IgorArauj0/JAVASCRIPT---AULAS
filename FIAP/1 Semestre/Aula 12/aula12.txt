@@ -1,0 +1,16 @@
+Aula 12 — Manipulação de strings
+Objetivo: trabalhar com textos e aprender os métodos mais utilizados.
+1. Métodos principais
+
+let nome = "  maria silva  ";
+
+console.log(nome.length);
+console.log(nome.trim());
+console.log(nome.toUpperCase());
+console.log(nome.toLowerCase());
+console.log(nome.includes("maria"));
+
+
+
+
+Exercício: apresentar o nome em maiúsculas, minúsculas e a quantidade de caracteres digitados.

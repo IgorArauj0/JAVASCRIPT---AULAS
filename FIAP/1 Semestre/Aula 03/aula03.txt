@@ -1,0 +1,23 @@
+Aula 03 — Tipos de dados
+
+Objetivo: identificar os principais tipos de informações que o JavaScript manipula.
+
+1. Conceitos:
+
+Tipo	Exemplo	Utilidade
+String	"Maria"	Textos
+Number	25	Números
+Boolean	true	Verdadeiro ou falso
+Undefined	undefined	Valor não definido
+Null	null	Ausência intencional de valor
+
+
+
+let nome = "Ana";
+let idade = 20;
+let matriculado = true;
+
+console.log(typeof nome);       // string
+console.log(typeof idade);      // number
+console.log(typeof matriculado); // boolean
+

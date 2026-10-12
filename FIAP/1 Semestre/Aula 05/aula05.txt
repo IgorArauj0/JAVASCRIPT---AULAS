@@ -1,0 +1,10 @@
+Aula 05 — Incremento e decremento
+Objetivo: compreender como aumentar ou diminuir valores automaticamente.
+
+
+let contador = 0;
+
+contador++; // Agora vale 1
+contador++; // Agora vale 2
+contador--; // Agora vale 1
+

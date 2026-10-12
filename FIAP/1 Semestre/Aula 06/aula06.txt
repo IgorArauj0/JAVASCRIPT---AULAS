@@ -1,0 +1,19 @@
+Aula 06 — Funções básicas
+
+Objetivo: entender como organizar e reutilizar códigos.
+
+1. O que é uma função?
+Uma função é um bloco de código que executa determinada tarefa quando é chamado.
+
+
+function saudacao() {
+  console.log("Bom dia, turma!");
+}
+
+saudacao();
+
+
+
+
+Explique a diferença entre criar uma função e executar uma função.
+Exercício: criar três botões, cada um chamando uma função diferente: Bom dia, Boa tarde e Boa noite.

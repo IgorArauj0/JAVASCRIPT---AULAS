@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+
+    <h2>Minhas tarefas</h2>
+
+    <input id="tarefa" placeholder="Nova tarefa">
+
+    <button onclick="adicionar()">
+        Adicionar
+    </button>
+
+    <ul id="lista"></ul>
+
+    <script>
+        let tarefas = [];
+
+        function adicionar() {
+            let tarefa = document.getElementById("tarefa").value;
+
+            if (tarefa.trim() === "") {
+                alert("Digite uma tarefa!");
+                return;
+            }
+
+            tarefas.push(tarefa);
+
+            document.getElementById("tarefa").value = "";
+
+            mostrarTarefas();
+        }
+
+        function mostrarTarefas() {
+            let lista = document.getElementById("lista");
+
+            lista.innerHTML = "";
+
+            tarefas.forEach(function (tarefa) {
+                let item = document.createElement("li");
+
+                item.innerText = tarefa;
+
+                lista.appendChild(item);
+            });
+        }
+    </script>
+
+</body>
+
+</html>

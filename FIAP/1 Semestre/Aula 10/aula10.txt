@@ -1,0 +1,13 @@
+Aula 10 — Estruturas de repetição: for
+Objetivo: executar um bloco de código repetidamente.
+
+
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+Explique:
+- let i = 1: ponto de partida.
+- i <= 5: condição para continuar.
+- i++: aumenta o contador.
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="number" id="preco" placeholder="Preço">
+<button onclick="calcular()">Calcular desconto</button>
+<p id="resultado"></p>
+
+<script>
+  function aplicarDesconto(preco) {
+    return preco * 0.90;
+  }
+
+  function calcular() {
+    let preco = Number(
+      document.getElementById("preco").value
+    );
+
+    let total = aplicarDesconto(preco);
+
+    document.getElementById("resultado").innerText =
+      "Valor com desconto: R$ " + total.toFixed(2);
+  }
+</script>
+
+</body>
+</html>

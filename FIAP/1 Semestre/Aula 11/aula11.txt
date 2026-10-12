@@ -1,0 +1,30 @@
+Aula 11 — Estruturas de repetição: while e do...while
+
+Objetivo: aprender repetições baseadas em condições.
+
+1. While
+let numero = 1;
+
+while (numero <= 5) {
+  console.log(numero);
+  numero++;
+}
+
+
+2. Do...while
+
+let numero = 1;
+
+do {
+  console.log(numero);
+  numero++;
+} while (numero <= 5);
+
+
+A diferença é que o do...while executa o bloco pelo menos uma vez, antes de verificar a condição.
+
+
+
+3. Prática
+Criar uma contagem regressiva de 10 até 0 e apresentar o resultado em uma <div>.
+Exercício: criar um contador que mostre apenas números pares entre 0 e 20.

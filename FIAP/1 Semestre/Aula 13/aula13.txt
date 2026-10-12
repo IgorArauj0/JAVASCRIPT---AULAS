@@ -1,0 +1,12 @@
+Aula 13 — Objeto Math
+Objetivo: utilizar funções matemáticas prontas do JavaScript.
+
+
+1. Métodos principais
+Método	Resultado
+Math.round(4.6)	5
+Math.floor(4.9)	4
+Math.ceil(4.1)	5
+Math.sqrt(25)	5
+Math.max(3, 8)	8
+Math.random()	Número de 0 até menos de 1

@@ -1,0 +1,30 @@
+Aula 08 — Estruturas de decisão: if, else e else if
+Objetivo: permitir que o programa tome decisões conforme determinadas condições.
+
+
+let nota = 7;
+
+if (nota >= 7) {
+  console.log("Aprovado");
+} else {
+  console.log("Reprovado");
+}
+
+
+2. Prática — Verificador de notas
+
+
+function verificarNota(nota) {
+  if (nota >= 7) {
+    return "Aprovado";
+  } else if (nota >= 5) {
+    return "Recuperação";
+  } else {
+    return "Reprovado";
+  }
+}
+
+
+
+
+Exercício: criar um sistema que informe se uma pessoa é menor de idade, adulta ou idosa.

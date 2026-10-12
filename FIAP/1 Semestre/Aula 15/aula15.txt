@@ -1,0 +1,14 @@
+Aula 15 — Arrays e projeto final
+Iniciante → Intermediário
+Objetivo: compreender como armazenar vários valores e desenvolver uma pequena aplicação funcional.
+
+
+1. O que é um array?
+Um array é uma estrutura que armazena vários valores em uma única variável.
+
+
+
+
+4. Desafio final:
+
+Os alunos deverão evoluir a aplicação adicionando um botão para remover tarefas e um contador com a quantidade de tarefas cadastradas.

@@ -1,0 +1,20 @@
+function apresentar(nome) {
+  console.log("Olá, " + nome);
+}
+
+apresentar("Pedro");
+apresentar("Mariana");
+
+
+
+
+2. Funções com return
+function somar(a, b) {
+  return a + b;
+}
+
+let resultado = somar(10, 5);
+
+console.log(resultado); // 15
+
+// O return devolve um resultado para quem chamou a função.

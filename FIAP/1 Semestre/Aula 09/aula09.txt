@@ -1,0 +1,24 @@
+let opcao = 2;
+
+switch (opcao) {
+  case 1:
+    console.log("Curso de HTML");
+    break;
+
+  case 2:
+    console.log("Curso de JavaScript");
+    break;
+
+  case 3:
+    console.log("Curso de Python");
+    break;
+
+  default:
+    console.log("Opção inválida");
+}
+
+
+
+2. Prática
+Crie um <select> HTML com três cursos. O aluno escolhe uma opção e o JavaScript apresenta uma descrição.
+Exercício: adicionar mais duas opções de cursos e apresentar a carga horária correspondente.

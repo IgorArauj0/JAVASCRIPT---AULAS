@@ -1,0 +1,7 @@
+Objetivo: ensinar os alunos a armazenar informações e utilizá-las em diferentes partes do programa.
+
+Explique que document.getElementById() localiza um elemento pelo ID, .value obtém o valor digitado e .innerText altera o texto exibido na página.
+
+3. Exercício de fixação
+Adicione dois campos ao cadastro: idade e curso. Ao clicar no botão, o programa deverá mostrar:
+Aluno: Carlos | Idade: 18 | Curso: JavaScript

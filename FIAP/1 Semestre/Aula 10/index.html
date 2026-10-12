@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="numero" placeholder="Número">
+<button onclick="gerar()">Gerar tabuada</button>
+
+<div id="resultado"></div>
+
+<script>
+  function gerar() {
+    let numero = Number(
+      document.getElementById("numero").value
+    );
+
+    let texto = "";
+
+    for (let i = 1; i <= 10; i++) {
+      texto += numero + " x " + i +
+        " = " + (numero * i) + "<br>";
+    }
+
+    document.getElementById("resultado").innerHTML = texto;
+  }
+</script>
+</body>
+</html>

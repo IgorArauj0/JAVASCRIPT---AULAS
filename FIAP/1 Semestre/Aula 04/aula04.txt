@@ -1,0 +1,13 @@
+Operador	Função	Exemplo
+
++	Soma	5 + 2
+-	Subtração	5 - 2
+*	Multiplicação	5 * 2
+/	Divisão	      10 / 2
+%	Resto da divisão	10 % 3
+>	Maior que	10 > 5
+===	Igualdade estrita	5 === 5
+&&	E lógico	       true && false
+\|\|	OU lógico	true \|\| false
+
+
