@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 11 - Manipulação do DOM</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="container">
+        <section class="card">
+            <h1>Manipulação do DOM</h1>
+            <p class="subtitle">
+                Aprendendo a alterar conteúdo, estilos e elementos HTML com JavaScript.
+            </p>
+
+            <div class="box">
+                <h2>1. Alterando texto</h2>
+                <p id="mensagem">Clique no botão para alterar este texto.</p>
+                <button id="btn-mudar-texto">Mudar texto</button>
+            </div>
+
+            <div class="box">
+                <h2>2. Alterando estilo</h2>
+                <p id="texto-estilo">Esse texto vai mudar de cor.</p>
+                <button id="btn-mudar-estilo">Mudar cor</button>
+            </div>
+
+            <div class="box">
+                <h2>3. Adicionando elementos</h2>
+                <ul id="lista-exemplo">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                <input type="text" id="nova-tarefa" placeholder="Digite uma tecnologia" />
+                <button id="btn-adicionar">Adicionar item</button>
+            </div>
+
+            <div class="box">
+                <h2>4. esconder/mostrar conteúdo</h2>
+                <p id="conteudo-escondido" class="hidden">
+                    Este conteúdo estava escondido e agora apareceu.
+                </p>
+                <button id="btn-toggle">Mostrar / Ocultar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

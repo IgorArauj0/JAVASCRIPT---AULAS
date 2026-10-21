@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas - JavaScript Básico</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="container">
+        <section class="card">
+            <h1>Lista de Tarefas</h1>
+            <p class="subtitle">Aprendendo DOM com JavaScript básico</p>
+
+            <form id="task-form" novalidate>
+                <label for="task-input">Digite uma tarefa:</label>
+                <div class="input-group">
+                    <input type="text" id="task-input" placeholder="Ex.: Estudar JavaScript" autocomplete="off" />
+                    <button type="submit" id="add-task-btn">Adicionar</button>
+                </div>
+
+                <small id="message" aria-live="polite"></small>
+            </form>
+
+            <ul id="task-list" class="task-list">
+                <li class="empty-state">Nenhuma tarefa adicionada.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f4f7ff, #dfe9ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1d2a4d;
+}
+
+.subtitle {
+    text-align: center;
+    color: #5d6f92;
+    margin-bottom: 25px;
+}
+
+.box {
+    border: 1px solid #dfe7ff;
+    background: #f9fbff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    margin-bottom: 12px;
+    color: #2c3d68;
+    font-size: 1.2rem;
+}
+
+button,
+input {
+    margin-top: 12px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #ccd9ff;
+    font-size: 1rem;
+}
+
+button {
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #3558da;
+}
+
+input {
+    width: 100%;
+    margin-right: 10px;
+}
+
+#lista-exemplo {
+    margin-top: 12px;
+    padding-left: 20px;
+}
+
+#lista-exemplo li {
+    margin-bottom: 8px;
+}
+
+#texto-estilo {
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

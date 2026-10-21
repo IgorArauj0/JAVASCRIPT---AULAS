@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f4f7ff, #dfeaff);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 520px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    padding: 30px 24px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f2a44;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #60708d;
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2d3d5c;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 2px solid #d9e2f2;
+    outline: none;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #4a6cf7;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background: #4a6cf7;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: #3456dd;
+}
+
+#message {
+    display: block;
+    min-height: 20px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+#message.error {
+    color: #d93025;
+}
+
+#message.success {
+    color: #188038;
+}
+
+.task-list {
+    list-style: none;
+    margin-top: 24px;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f6f8ff;
+    border: 1px solid #e4ebff;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    color: #24314d;
+}
+
+.task-list li .task-text {
+    flex: 1;
+    word-break: break-word;
+}
+
+.task-list li .remove-btn {
+    background: #ef4444;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+}
+
+.task-list li .remove-btn:hover {
+    background: #d92d2d;
+}
+
+.empty-state {
+    justify-content: center !important;
+    color: #7584a1;
+    font-style: italic;
+}
